@@ -197,22 +197,91 @@
 
 
 						// 调换两数组的下标相同的元素的位置
-int main()
-{
-	char arr1[] = "welcome to Beijing!!!";
-	char arr2[] = "#####################";
-	int left = 0;
-	int right = strlen(arr2) - 1;
-	while (left <= right)
-	{
-		arr2[left] = arr1[left];
-		arr2[right] = arr1[right];
-		printf("%s\n", arr2);
-		Sleep(100);
-	system("cls");
-		left++;
-		right--;
-	}
-	printf("%s\n", arr2);
-	return 0;
-}
+//int main()
+//{
+//	char arr1[] = "welcome to Beijing!!!";
+//	char arr2[] = "#####################";
+//	int left = 0;
+//	int right = strlen(arr2) - 1;
+//	while (left <= right)
+//	{
+//		arr2[left] = arr1[left];
+//		arr2[right] = arr1[right];
+//		printf("%s\n", arr2);
+//		Sleep(100);
+//	system("cls");
+//		left++;
+//		right--;
+//	}
+//	printf("%s\n", arr2);
+//	return 0;
+//}
+
+//int main()
+//{
+//	char passward[20] = { 0 };
+//	char a = 0;
+//	int i = 0;
+//	char username[20] = {0};
+//	for (i = 0; i < 3; i++)
+//	{
+//		printf("请输入用户名：>\n");
+//		scanf("%s", &username);
+//		printf("请输入密码:> ");
+//		scanf("%s", &passward);
+//		if (strcmp(passward, "myandme") == 0)
+//		{
+//			system("cls");
+//			printf("密码正确，登陆成功\n");
+//			break;
+//		}
+//		else
+//		{
+//			printf("密码错误,请重新输入\n");
+//			Sleep(1000);
+//			system("cls");
+//		}
+//	}
+//	if (i == 3)
+//	{
+//		system("cls");
+//		printf("多次输入错误，退出程序\n");
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	int n = 0;
+//	int i = 0;
+//	int j = 0;
+//	int x = 0;
+//	printf("请输入行数;>  ");
+//	scanf("%d", &x);
+//	n = x;
+//	for (; n > 0; n--)
+//	{
+//		for (j = 0; j < n - 1; j++)
+//		{
+//			printf(" ");
+//		}
+//		for (i = 0; i < x - j; i++)
+//		{
+//			printf("**");
+//				Sleep(100);
+//		}
+//		printf("\n");
+//	}
+//	return 0;
+//}
+
+
+
+
+
+
+
+
+
+
+
